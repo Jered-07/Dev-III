@@ -3,7 +3,7 @@ package estructuras_Datos;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Colletion_List {
+public class List_Practice {
     public static void main(String[] args) {
 
         List<String> vehiculos =  new ArrayList<String>();

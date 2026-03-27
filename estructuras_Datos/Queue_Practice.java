@@ -12,7 +12,6 @@ public class Queue_Practice {
 
         while (!cola.isEmpty()) {
             System.out.println(cola.poll());
-        }
-
+        }    
     }
 }
