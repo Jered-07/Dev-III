@@ -37,11 +37,11 @@ public class Product implements Comparable<Product> {
 
     @Override
     public String toString() {
-        return "name = " + name + " price = " + price + "quantity = " + quantity ;
+        return "name: " + name + " price: " + price + " quantity: " + quantity ;
     }
 
     @Override
     public int compareTo(Product o) {
-        return o.quantity - this.quantity;
+        return Integer.compare(o.getQuantity(),this.quantity);
     }
 }
