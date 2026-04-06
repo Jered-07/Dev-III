@@ -21,7 +21,7 @@ public class Main {
 
         //Odenamiento por nombre
         System.out.println("==== Orden Por Nombre ====");
-        Collections.sort(products, new ComparePerName());
+        Collections.sort(products, (p1 , p2) -> p1.getName().compareTo(p2.getName()));
         printList();
         System.out.println(" ");
 
