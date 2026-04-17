@@ -1,12 +1,14 @@
-package PracticaGuiada3;
+package PracticaGuiada3.Abstract_Factory;
 
 public class GameBoyMoneda extends Moneda {
     
+    @Override
     public void resolution() {
         System.out.println("La resolucion de la moneda en la GameBoy es de 4px");
     };
 
-    public void paint() {
-        System.err.println("Se dibujo la moneda");
+    @Override
+    public void valor() {
+        System.err.println("El valor de la moneda es de 20");
     };
 }
