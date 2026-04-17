@@ -11,7 +11,7 @@ public class Main {
         PayPalCreator paypal = new PayPalCreator();
 
         System.out.println("Escoja un metodo de pago" 
-        + "\n1. Tar2jeta de Credito" 
+        + "\n1. Tarjeta de Credito" 
         + "\n2. PayPal");
         opcion = sc.nextInt();
 
