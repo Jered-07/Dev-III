@@ -5,7 +5,7 @@ public class Main {
         GameBoyItemFactory gameBoyFactory = new GameBoyItemFactory();
         NintendoDSItemFactory nintendoDSFactory = new NintendoDSItemFactory();
 
-        System.out.println("=== Objetos de la GameBoy");
+        System.out.println("=== Objetos de la GameBoy ===");
 
         gameBoyFactory.createMoneda().valor();
         gameBoyFactory.createBloqueInterrogante().power();
